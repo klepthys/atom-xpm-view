@@ -1,0 +1,23 @@
+{
+  "name": "xpm-view",
+  "main": "./lib/xpm-view",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "main":"lib/main.coffee",
+  "repository": "https://github.com/atom/xpm-view",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "fs-plus":"^2",
+    "xpixmap":"*",
+    "pathwatcher": "^4.2",
+    "atom-space-pen-views": "^2.0.0"
+  },
+  "devDependencies": {
+    "coffeelint": "^1.9.7"
+  }
+}

@@ -6,7 +6,7 @@
   "keywords": [
   ],
   "main":"lib/main.coffee",
-  "repository": "https://github.com/atom/xpm-view",
+  "repository": "https://github.com/klepthys/atom-xpm-view",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

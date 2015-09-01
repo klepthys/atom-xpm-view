@@ -22,8 +22,10 @@ class XpmView extends ScrollView
     @errorMessage.hide()
     originalPath = @path
     pix = new PixmapReader(originalPath,{format:"RGBA"})
-    @canvas.width = pix.width
-    @canvas.height = pix.height
+    @canvas.prop({
+                    width: pix.width,
+                    height: pix.height
+                })
     context = @canvas[0].getContext('2d')
     image = context.createImageData(pix.width, pix.height)
     offset = 0
